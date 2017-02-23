@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ThreeInARow</string>
+    <string name="action_settings">Settings</string>
+    <string name="threeinarowlogo">three in a row logo</string>
+    <string name="start_game">Start Game</string>
+    <string name="title_activity_game_screen">GameScreen</string>
+    <string name="reset_game">Reset game</string>
+    <string name="next_color"></string>
+    <string name="title_activity_help_menu">Help</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="theme_color_label">Choose your theme color </string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="help_screen_title">Instructions </string>
+    <string name="instruccion1">Click on the greyed squares! To win Change the color of all
+        the squares before you run out of time, avoid that more than 2 squares of
+        the same color are next to each other either vertically or horizontal. </string>
+    <string name="instruccion2">Change the color  and the size of your grid in the settings menu</string>
+    <string name="instruccion3">Everytime you click on a square
+        the upcoming color will be displayed</string>
+    <string name="four_by_four">4 X 4</string>
+    <string name="five_by_five">5 X 5</string>
+    <string name="easy_level">Easy </string>
+    <string name="difficult">Difficult</string>
+
+</resources>

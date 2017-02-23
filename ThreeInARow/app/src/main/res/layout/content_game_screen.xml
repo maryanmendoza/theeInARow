@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_marginTop="?android:attr/actionBarSize"
+              android:background="@android:color/holo_green_dark"
+              android:weightSum="1"
+    >
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="259dp"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:gravity="fill"
+
+        android:layout_weight="0.53"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_color"
+        android:id="@+id/next_color_txt"
+        android:layout_marginLeft="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score_message"
+        />
+    <Button
+        android:id="@+id/reset_game_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_game"/>
+
+</LinearLayout>
+
+
